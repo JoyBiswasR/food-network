@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+/* Element Set-Up */
+container{
+    width: 1440px;
+    max-width: 100%;
+}
+content{
+    width: 1240px;
+    max-width: 95%;
+}
+
+h1{
+font-size :60px; ;
+font-weight: 700;
+line-height: 130%;
+letter-spacing: -0.02em;
+}
+
+
+
+
+/* ReuseAble Component */
+.btn{
+    padding: 10px 15px;
+    background-image: linear-gradient(#FD4C2F #FFF4ED);
+}
+
+
+
