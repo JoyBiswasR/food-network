@@ -13,7 +13,6 @@ body{
     font-size: 18px;
 }
 .container{
-    /* width: 1440px; */
     max-width: 100%;
     margin: 0 auto;
 }
@@ -70,10 +69,15 @@ a{color: #fff;}
     background-color: #F53EBA;
     position: fixed;
     top: 0;
-    width: 100%;
 }
-.logo span{color:rgb(0, 0, 0)}
-.logo h2{text-align: left;font-size: 50px;}
+.logo span{
+    color:rgb(0, 0, 0)
+}
+.logo h2{
+    text-align: left;
+    font-size: 50px;
+    padding:0;
+}
 .logo,.main-nav{width: 50%;}
 nav>ul>li{
     display: inline-block;
@@ -95,7 +99,9 @@ ul li a:hover{background-color:#E523AB;color: #fff;}
 }
 
 /* Banner Area Code Start */
-#banner{padding:65px 0}
+#banner{
+    padding:100px 0;
+}
 .banner-left{
     width: 50%;
     margin: auto 0;
