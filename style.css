@@ -67,14 +67,11 @@ a{color: #fff;}
 /* Main Navigation */
 #header{
     width: 100%;
-    /* margin: -60px auto; */
-    background-color: #EA2AAF;
+    background-color: #F088D1;
     position: fixed;
     top: 0;
     width: 100%;
-    overflow: hidden;
 }
-#header span{color:#fff}
 .logo,.main-nav{width: 50%;}
 nav>ul>li{
     display: inline-block;
@@ -93,7 +90,9 @@ ul li a{color: #EA2AAF;
 .main-nav{
     margin:auto 0;
 }
+
 /* Banner Area Code Start */
+#banner{padding:65px 0}
 .banner-left{
     width: 50%;
     margin: auto 0;
@@ -116,6 +115,7 @@ ul li a{color: #EA2AAF;
 
 /* About Section Code Start */
 #about{
+    padding:65px 0 0 0;
     background-image: url(img/frame-59.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -142,25 +142,40 @@ width: 50%;
 
 
 /* Recipies Section Code Start */
+#recipies{padding: 65px 0 0 0;}
+#recipies p{width:500px;
+    text-align: center;
+    margin: 0 auto;
+}
 .item{
     width: 33%;
-    border-radius: 5px;   
-    padding: 40px 10px;
-    box-shadow: 5px 5px 40px 5px;
-    margin: 0 2% 0 0;
+    border-radius: 10px;  
+    padding: 20px;
+    box-shadow: -1px -1px 15px -10px;
+    margin: 0 2%;
+}
+.item p{
+    width:300px !important;
+    text-align: left !important;
+    margin: 0;
+}
+.item h3{font-size: 30px;
+padding: 10px 0;
 }
 
-
 /* Resume Section */
+#resume{padding: 30px 0 0 0;margin: 40px 0;}
+.my-resume{box-shadow:-1px -1px 15px -10px;}
 .my-resume div{
     width: 33%;
 }
+.my-resume p{text-align:center}
 /* footer code start */
 footer{
-    background-color: #EA2AAF;
+    background-color: #7c4a6d;
     padding: 20px;
     /* width: 100%; */
 }
 footer span{color: #fff;}
-footer p{text-align: center;}
+footer p{text-align: center;color: #fff;}
 
