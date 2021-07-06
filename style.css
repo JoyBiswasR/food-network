@@ -3,33 +3,118 @@
     padding: 0;
     outline: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 
 /* Element Set-Up */
-container{
-    width: 1440px;
-    max-width: 100%;
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
 }
-content{
+.container{
+    /* width: 1440px; */
+    max-width: 100%;
+    margin: 0 auto;
+}
+.content{
     width: 1240px;
-    max-width: 95%;
+    max-width: 90%;
+    display: flex;
+    margin: 60px auto;
+    background-color: #fff;
 }
 
-h1{
+h1,h2{
 font-size :60px; ;
 font-weight: 700;
 line-height: 130%;
 letter-spacing: -0.02em;
 }
+h2{
+    font-size: 40px;
+    padding: 40px 0;
+}
 
-
+Span{
+    color: #FB48C0;
+}
+img{
+    max-width: 100%;
+}
+a{color: #fff;}
 
 
 /* ReuseAble Component */
 .btn{
+    margin-top: 10px;
     padding: 10px 15px;
-    background-image: linear-gradient(#FD4C2F #FFF4ED);
+    width:150px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    background-image: linear-gradient(to left,#F640BB ,#F088D1);   
 }
 
+/* Main Navigation */
+#header{
+    width: 100%;
+    margin: 0 auto;
+}
+.logo,.main-nav{width: 50%;}
+nav>ul>li{
+    display: inline-block;
+    margin: 0 0 0 10px;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 5px;
+    background-color:#f088d1;
+    vertical-align:center;
+}
+ul{float: right;}
 
+.main-nav{
+    margin:auto 0;
+}
+/* Banner Area Code Start */
+.banner-left{
+    width: 50%;
+    margin: auto 0;
+    padding: 100px 0;
+}
+.banner-right{
+    background-image: url(img/Group-8448.png);
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:100% 100%;
+    
+}
+.shape{
+    width: 70%;
+    float: right;
+    margin: 130px 0 0 30px;
+    padding: 0px 0;
+}
+
+/* About Section Code Start */
+#about{
+    background-image: url(img/frame-59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about{
+    background-color: #FFEDF9;
+}
+.about-left{
+width: 50%;
+}
+.about-right{
+    width: 50%;
+    padding: 40px 0;
+    margin: auto 0;
+}
 
