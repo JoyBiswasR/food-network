@@ -21,6 +21,7 @@ body{
     max-width: 90%;
     display: flex;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 h1,h2{
@@ -157,7 +158,7 @@ width: 50%;
     margin: 0 auto;
 }
 .item{
-    width: 33%;
+    width: 29%;
     border-radius: 10px;  
     padding: 20px;
     box-shadow: -1px -1px 15px -10px;
@@ -189,3 +190,26 @@ footer span{color: rgb(255, 2, 2);}
 footer h2{color: #fff;}
 footer p{text-align: center;color: #fff;}
 
+/* Responsive Css */
+@media (max-width:760px) {
+    .banner-left,.banner-right {
+    width: 100%;
+}
+#header {
+   display: none;
+}
+.about-left,.about-right {
+    width: 100%;
+}
+.recipies{
+    width: 100%;
+}
+.item {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#recipies p {
+    width: 100%;
+}
+}
